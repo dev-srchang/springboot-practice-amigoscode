@@ -32,6 +32,6 @@ public class DemoApplication {
 
 	@GetMapping(path = "/student")
 	public List<Student> getTestStudent() {
-		return List.of(new Student(1L, "srchang", "srchang@gmail.com", LocalDate.of(1975, Month.MAY, 22), 46));
+		return List.of(new Student(1L, "srchang", "srchang@gmail.com", LocalDate.of(1975, Month.MAY, 22)));
 	}
 }
